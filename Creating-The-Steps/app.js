@@ -24,6 +24,7 @@ function update(){
         prev.disabled = true;
     } else if(currentActive === circles.length){
         next.disabled = true
+        prev.disabled = false;
     } else {
         next.disabled = false;
     }
